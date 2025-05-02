@@ -178,3 +178,104 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 273274.747471 seconds.
+  path: Assets/Scenes/Map1.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map1.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bbf7c619eb84a0caac1f65b09ecf99') in 0.002868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.909347 seconds.
+  path: Assets/Scenes/New SceneTemplate.scenetemplate
+  artifactKey: Guid(39b1b9416e73502419d5314485be8b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New SceneTemplate.scenetemplate using Guid(39b1b9416e73502419d5314485be8b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f74bc7e0548157ec08891ad55203b0') in 0.042100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.764547 seconds.
+  path: Assets/Scenes/Map2.unity
+  artifactKey: Guid(e08968131b6d91b47aef7fa6a8e726bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map2.unity using Guid(e08968131b6d91b47aef7fa6a8e726bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697dd540567bd28f1e57ec335547fd65') in 0.000850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 557.966272 seconds.
+  path: Assets/Scenes/Map1.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map1.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c303882da1d3d2cf2d6f077371730e85') in 0.000775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 69.296515 seconds.
+  path: Assets/Scenes/Map2.unity
+  artifactKey: Guid(e08968131b6d91b47aef7fa6a8e726bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map2.unity using Guid(e08968131b6d91b47aef7fa6a8e726bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d27a6fc8bc0dc26d410e798ab554726') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 525.711669 seconds.
+  path: Assets/Scenes/Map1.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map1.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edc2ba8e66d0d7b2c681b39f691e790') in 0.000915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 77.644511 seconds.
+  path: Assets/Scenes/Map2.unity
+  artifactKey: Guid(e08968131b6d91b47aef7fa6a8e726bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map2.unity using Guid(e08968131b6d91b47aef7fa6a8e726bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41ae5b375bbe580275f68a952a9b55a') in 0.000652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 93.383384 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Skull/Hit (52x54).png
+  artifactKey: Guid(c389d719c1036984ea7ca0d1f8a62a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Skull/Hit (52x54).png using Guid(c389d719c1036984ea7ca0d1f8a62a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb4e94a91799d7018669218d2c87d02') in 0.091388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Skull/Orange Particle.png
+  artifactKey: Guid(d7495c5e35505cb47abb635609d9e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Skull/Orange Particle.png using Guid(d7495c5e35505cb47abb635609d9e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642ab94d7cf4868d065b597682a70e59') in 0.031870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Skull/Red Particle.png
+  artifactKey: Guid(a9a2e792e09a33b428d70b813df6a1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Skull/Red Particle.png using Guid(a9a2e792e09a33b428d70b813df6a1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e1c4a6efd788209c111c1fbd15361d') in 0.026529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Skull/Idle 1 (52x54).png
+  artifactKey: Guid(045eb5e1f0cbc424e9a8eed9eaf27bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Skull/Idle 1 (52x54).png using Guid(045eb5e1f0cbc424e9a8eed9eaf27bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09da5cac396bd0d9f291bb713c92e6b') in 0.043856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel Adventure 2/Assets/Enemies/Skull/Hit Wall 2 (52x54).png
+  artifactKey: Guid(37b1ba7ffc549af49af9b9327b6f897d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 2/Assets/Enemies/Skull/Hit Wall 2 (52x54).png using Guid(37b1ba7ffc549af49af9b9327b6f897d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb30230a01cbe8d74b9fd6c5b5868a1') in 0.042439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
