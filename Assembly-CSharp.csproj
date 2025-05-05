@@ -45,7 +45,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Shooter.cs" />
+     <Compile Include="Assets\Scripts\BunnyShooterManager.cs" />
+     <Compile Include="Assets\Scripts\BunnyShooter.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Pixel Adventure 1\Assets\Traps\Saw" />
      <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />

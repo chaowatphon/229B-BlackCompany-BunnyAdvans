@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16121 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 16237 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/beemp/OneDrive/Documents/GitHub/Project-Presentation-Final
+D:/Unity/GitProjectPresentationFinal/Project-Presentation-Final/Project-Presentation-Final
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-55943
-Successfully changed project path to: C:/Users/beemp/OneDrive/Documents/GitHub/Project-Presentation-Final
-C:/Users/beemp/OneDrive/Documents/GitHub/Project-Presentation-Final
+10090
+Successfully changed project path to: D:/Unity/GitProjectPresentationFinal/Project-Presentation-Final/Project-Presentation-Final
+D:/Unity/GitProjectPresentationFinal/Project-Presentation-Final/Project-Presentation-Final
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,67 @@ C:/Users/beemp/OneDrive/Documents/GitHub/Project-Presentation-Final
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31928] Host "[IP] 26.56.97.203 [Port] 0 [Flags] 2 [Guid] 463821369 [EditorId] 463821369 [Version] 1048832 [Id] WindowsEditor(7,Beam) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [28204] Host "[IP] 192.168.1.22 [Port] 0 [Flags] 2 [Guid] 374117870 [EditorId] 374117870 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L5GKCPG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31928] Host "[IP] 26.56.97.203 [Port] 0 [Flags] 2 [Guid] 463821369 [EditorId] 463821369 [Version] 1048832 [Id] WindowsEditor(7,Beam) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28204] Host "[IP] 192.168.1.22 [Port] 0 [Flags] 2 [Guid] 374117870 [EditorId] 374117870 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L5GKCPG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 1609.60 ms, found 4 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 1174.63 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/beemp/OneDrive/Documents/GitHub/Project-Presentation-Final/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/GitProjectPresentationFinal/Project-Presentation-Final/Project-Presentation-Final/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2544)
     Vendor:   NVIDIA
-    VRAM:     5996 MB
-    Driver:   32.0.15.6607
+    VRAM:     8036 MB
+    Driver:   32.0.15.7602
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.215815 seconds.
-- Loaded All Assemblies, in  5.049 seconds
+Registered in 0.006908 seconds.
+- Loaded All Assemblies, in  0.914 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.216 seconds
-Domain Reload Profiling: 5264ms
-	BeginReloadAssembly (4272ms)
+- Finished resetting the current domain, in  0.217 seconds
+Domain Reload Profiling: 1131ms
+	BeginReloadAssembly (92ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (267ms)
-	LoadAllAssembliesAndSetupDomain (464ms)
-		LoadAssemblies (4270ms)
+	RebuildCommonClasses (444ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (90ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (462ms)
-			TypeCache.Refresh (461ms)
-				TypeCache.ScanAssembly (447ms)
+		AnalyzeDomain (323ms)
+			TypeCache.Refresh (321ms)
+				TypeCache.ScanAssembly (311ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (217ms)
+	FinalizeReload (218ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (170ms)
+		SetupLoadedEditorAssemblies (174ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (103ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,163 +117,118 @@ Domain Reload Profiling: 5264ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  7.083 seconds
-Refreshing native plugins compatible for Editor in 4.60 ms, found 4 plugins.
+- Loaded All Assemblies, in  3.357 seconds
+Refreshing native plugins compatible for Editor in 41.02 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.562 seconds
-Domain Reload Profiling: 7638ms
-	BeginReloadAssembly (120ms)
+- Finished resetting the current domain, in  0.678 seconds
+Domain Reload Profiling: 4035ms
+	BeginReloadAssembly (126ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (33ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (6874ms)
-		LoadAssemblies (6691ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (3159ms)
+		LoadAssemblies (2982ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (252ms)
-			TypeCache.Refresh (218ms)
-				TypeCache.ScanAssembly (146ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (562ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (141ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (678ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (429ms)
+		SetupLoadedEditorAssemblies (557ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (274ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 6.21 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 5.05 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5705 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 98 unused Assets / (0.9 MB). Loaded Objects now: 6150.
-Memory consumption went from 220.7 MB to 219.8 MB.
-Total: 4.196100 ms (FindLiveObjects: 0.485600 ms CreateObjectMapping: 0.270000 ms MarkObjects: 2.956100 ms  DeleteObjects: 0.483400 ms)
+Unloading 5706 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (350.5 KB). Loaded Objects now: 6166.
+Memory consumption went from 220.9 MB to 220.5 MB.
+Total: 3.048600 ms (FindLiveObjects: 0.333400 ms CreateObjectMapping: 0.209600 ms MarkObjects: 2.336600 ms  DeleteObjects: 0.168200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
   custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Shooter.cs: 350db0d8f87a1308d6bb3ae5de196e43 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BunnyReset.cs: 69da8d85317e13b853c381324a663cb1 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 74605.232494 seconds.
-  path: Assets/New Folder
-  artifactKey: Guid(7301ac7b22dfb544aab4e6881efec78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(7301ac7b22dfb544aab4e6881efec78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cfbedb85db114671aa589c78f7bbac') in 0.001987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 11.444837 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000462 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 21.895270 seconds.
-  path: Assets/Sri
-  artifactKey: Guid(1bb09142605f5084b8514400cacf39bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sri using Guid(1bb09142605f5084b8514400cacf39bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2022363e9975bf1c8adff768d9ed07') in 0.000575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 16.734909 seconds.
-  path: Assets/Script
-  artifactKey: Guid(1bb09142605f5084b8514400cacf39bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(1bb09142605f5084b8514400cacf39bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4025902afee4d91eb8c3acd0a3061b5') in 0.000535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.149765 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(1bb09142605f5084b8514400cacf39bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(1bb09142605f5084b8514400cacf39bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07baff41d60cb1f795844b74f76087fb') in 0.000518 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 16.855706 seconds.
-  path: Assets/Scripts/NewBehaviourScript.cs
-  artifactKey: Guid(43ccb41f3e7e61748a1b6d7c11beacde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(43ccb41f3e7e61748a1b6d7c11beacde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1153a7f25393da055d7a5dffb42006ef') in 0.000751 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.569 seconds
-Refreshing native plugins compatible for Editor in 8.28 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.449 seconds
+Refreshing native plugins compatible for Editor in 3.86 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.505 seconds
-Domain Reload Profiling: 2071ms
-	BeginReloadAssembly (177ms)
+- Finished resetting the current domain, in 10.361 seconds
+Domain Reload Profiling: 10809ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (301ms)
-		LoadAssemblies (331ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (303ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (57ms)
-			TypeCache.Refresh (14ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1506ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (10362ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (519ms)
+		SetupLoadedEditorAssemblies (420ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (313ms)
-			ProcessInitializeOnLoadMethodAttributes (105ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 6.91 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 6.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5568 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (0.9 MB). Loaded Objects now: 6157.
-Memory consumption went from 199.8 MB to 198.9 MB.
-Total: 6.762900 ms (FindLiveObjects: 0.861900 ms CreateObjectMapping: 0.362300 ms MarkObjects: 4.415700 ms  DeleteObjects: 1.120500 ms)
+Unloading 5553 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (320.6 KB). Loaded Objects now: 6172.
+Memory consumption went from 196.2 MB to 195.9 MB.
+Total: 4.173300 ms (FindLiveObjects: 0.466300 ms CreateObjectMapping: 0.331300 ms MarkObjects: 3.244500 ms  DeleteObjects: 0.130100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -281,1016 +236,98 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
   custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Shooter.cs: 350db0d8f87a1308d6bb3ae5de196e43 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BunnyReset.cs: 69da8d85317e13b853c381324a663cb1 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 312.107645 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e6470852b3004ccbd9896dccaa342f0e') in 0.251217 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/glossy bubbles/material/4.mat
-  artifactKey: Guid(0c98e1d0cfb91904c9baf1f617a32261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/material/4.mat using Guid(0c98e1d0cfb91904c9baf1f617a32261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'edf4c0050ce6d2c7b19648daa5a80dc5') in 0.044062 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/glossy bubbles/img/3.png
-  artifactKey: Guid(c4797b928419e844aaef5d3f039aa7f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/img/3.png using Guid(c4797b928419e844aaef5d3f039aa7f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '415c0e63e2aa3ce9693afd8d1a0acba3') in 0.069733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Scenes/Map2.unity
-  artifactKey: Guid(e08968131b6d91b47aef7fa6a8e726bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Map2.unity using Guid(e08968131b6d91b47aef7fa6a8e726bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6965592bb0ab74c9fbc1296a5ce622fc') in 0.014729 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Background/Gray.png
-  artifactKey: Guid(ffc80c129c9aca14c9fb4dbeba0e10d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Background/Gray.png using Guid(ffc80c129c9aca14c9fb4dbeba0e10d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2e01e90a58b50bd9394bafcc932aff15') in 0.039895 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Background/Brown.png
-  artifactKey: Guid(ca6a66f8e2ae9c24c8c6b39c49206a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Background/Brown.png using Guid(ca6a66f8e2ae9c24c8c6b39c49206a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '05cbcc8e563efaab45c2e3897277832e') in 0.041716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/glossy bubbles/img/13.png
-  artifactKey: Guid(793ffa612b1b3de4996b7ebac0393def) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/img/13.png using Guid(793ffa612b1b3de4996b7ebac0393def) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5a98325bbb46bc75b54c9778cf6b1239') in 0.040321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Blocks/Part 1 (22x22).png
-  artifactKey: Guid(09f4b8f50dab5b34495ea64fc80b3047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Blocks/Part 1 (22x22).png using Guid(09f4b8f50dab5b34495ea64fc80b3047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '58805790d856422fdbb9c9d4a5417ecc') in 0.041775 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/glossy bubbles/img/scr4.png
-  artifactKey: Guid(892ec8e83dd7fed4dad701d53f01afdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/img/scr4.png using Guid(892ec8e83dd7fed4dad701d53f01afdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '877297034374dc04970d5e9a86379e41') in 0.085758 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/glossy bubbles/img/scr2.png
-  artifactKey: Guid(9899d8fb4d2f3b44386173791c68445b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/img/scr2.png using Guid(9899d8fb4d2f3b44386173791c68445b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '828a93230631c5d2b07430b710336369') in 0.048182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/glossy bubbles/scene/1.unity
-  artifactKey: Guid(e2e1b8b40b4814443bbd3d0357ecad8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/scene/1.unity using Guid(e2e1b8b40b4814443bbd3d0357ecad8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cfb167b20bb6b75fd7f2a74aba83702f') in 0.020446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/glossy bubbles/img/scr1.png
-  artifactKey: Guid(6641c5740f4e3ad4bb023a7cddc9090c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/img/scr1.png using Guid(6641c5740f4e3ad4bb023a7cddc9090c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '06f93314f6776ed5055f8e142518032c') in 0.046805 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/Terrain Sliced (16x16).png
-  artifactKey: Guid(fc584d329b77b9545b9c9c8bb829e553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/Terrain Sliced (16x16).png using Guid(fc584d329b77b9545b9c9c8bb829e553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9f438bfaf237125f9b064adb8123d2bf') in 0.461135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 146
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Falling Platforms/Off.png
-  artifactKey: Guid(99329b87c11d1ee4f8d328e269a7073b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Falling Platforms/Off.png using Guid(99329b87c11d1ee4f8d328e269a7073b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8532bbda5706f6f91044273056fb0307') in 0.034524 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png
-  artifactKey: Guid(9b7e8d8d6e9ac904dba7f59ba8b11835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png using Guid(9b7e8d8d6e9ac904dba7f59ba8b11835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f78b3777586b37555adff5e1d177cd08') in 0.049921 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Jump (32x32).png
-  artifactKey: Guid(4872bd1108769a946a6acb68dc156fcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Jump (32x32).png using Guid(4872bd1108769a946a6acb68dc156fcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e0805ad19016e47db6c16265de3d47eb') in 0.043005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/glossy bubbles/img/10.png
-  artifactKey: Guid(3320bc4a868201f4aa3895c523fcdebf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/img/10.png using Guid(3320bc4a868201f4aa3895c523fcdebf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ad231ea886d2ec98ddb178ebb40280fa') in 0.043391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Saw/On (38x38).png
-  artifactKey: Guid(c016f0eb0a188a14ab7f86d910097523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Saw/On (38x38).png using Guid(c016f0eb0a188a14ab7f86d910097523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '371a763e7b690c8590a75416a9f968cf') in 0.056993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Mud Particle.png
-  artifactKey: Guid(54d83c3d1e256b340a5d5f928746a5e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Mud Particle.png using Guid(54d83c3d1e256b340a5d5f928746a5e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '66193491775a1351e20d325b217d62c3') in 0.050379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Mud Ice (16x6) 1.png
-  artifactKey: Guid(6efdcf6020a7a0d41b45257fc2593b74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Mud Ice (16x6) 1.png using Guid(6efdcf6020a7a0d41b45257fc2593b74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2eb35a4a47af26f31e8a4c345e828ce1') in 0.043873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/Chain.png
-  artifactKey: Guid(8baedcc19bcfee347a8aef42935eac87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Spiked Ball/Chain.png using Guid(8baedcc19bcfee347a8aef42935eac87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b29b26cebbb4dce4a1a74fad9701952c') in 0.042256 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Blocks/Part 2 (22x22).png
-  artifactKey: Guid(445c6df91e50ef74eb2589883bcc07d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Blocks/Part 2 (22x22).png using Guid(445c6df91e50ef74eb2589883bcc07d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '88286be304a8196c498aa001ede99045') in 0.040259 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/glossy bubbles/img/11.png
-  artifactKey: Guid(3afbf3e535d030047874f361fb7ec346) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/img/11.png using Guid(3afbf3e535d030047874f361fb7ec346) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '21d5ce6686e8150ab4a1d8d8cb710732') in 0.041286 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Blocks/HitSide (22x22).png
-  artifactKey: Guid(a93caedcaa299f14e978454757f38077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Blocks/HitSide (22x22).png using Guid(a93caedcaa299f14e978454757f38077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd291b90dd722381bb24ff192e2559455') in 0.035751 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Idle (32x32).png
-  artifactKey: Guid(d348dff3819df794186a80cb95777629) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Idle (32x32).png using Guid(d348dff3819df794186a80cb95777629) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b4fef50d5eacddd89c86424d39139343') in 0.061540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Hit (32x32).png
-  artifactKey: Guid(9b0499fd3a0892046926ed19c78cfea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Hit (32x32).png using Guid(9b0499fd3a0892046926ed19c78cfea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8cf796b012714d0debd8533c303c8531') in 0.043317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Spikes/Idle.png
-  artifactKey: Guid(da2176ef0629bfd42958a94b2bf225a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Spikes/Idle.png using Guid(da2176ef0629bfd42958a94b2bf225a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fe489c486d68c98abf1a687e73180f7f') in 0.045781 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Bee/Bullet Pieces (16x16).png
-  artifactKey: Guid(5cdecb593477c59478ebc0b2d9695ae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Bee/Bullet Pieces (16x16).png using Guid(5cdecb593477c59478ebc0b2d9695ae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f4ea4c7ff33ebfa61a4fdc18333d2cc7') in 0.046158 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Bee/Attack (36x34).png
-  artifactKey: Guid(91b25275eae7e0d42a0f271880e21b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Bee/Attack (36x34).png using Guid(91b25275eae7e0d42a0f271880e21b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '62c5e8be9dbb23acb5745d594a94162e') in 0.049028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Bat/Idle (46x30).png
-  artifactKey: Guid(17f1500d499e1e546814f4f32624b47e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Bat/Idle (46x30).png using Guid(17f1500d499e1e546814f4f32624b47e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '56e7bf041e02099a3de4245bb94e2c29') in 0.068743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Orange.png
-  artifactKey: Guid(ffc9f271fad56c243a45f100b9dc6778) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Orange.png using Guid(ffc9f271fad56c243a45f100b9dc6778) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7b07510ceb6ed6b998188eacc05c6229') in 0.058313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png
-  artifactKey: Guid(5fd9f3ec1e3e0bc4d8e308e10012a36a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png using Guid(5fd9f3ec1e3e0bc4d8e308e10012a36a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ffb065aad9f6ee94691a3652536be22d') in 0.053748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Cherries.png
-  artifactKey: Guid(3d6be91968cb95546ac95aeff5e52f84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Cherries.png using Guid(3d6be91968cb95546ac95aeff5e52f84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b58958d3d29ce2d5dc34ef4837857813') in 0.064310 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/glossy bubbles/material/5.mat
-  artifactKey: Guid(53132e819bb4214488bd0d29613848a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/material/5.mat using Guid(53132e819bb4214488bd0d29613848a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '09e54179218aeb50a9da258bf60b9fbb') in 0.027961 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Blocks/Idle.png
-  artifactKey: Guid(8d9b0e740a31fbf448f91aaf8ea38ff8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Blocks/Idle.png using Guid(8d9b0e740a31fbf448f91aaf8ea38ff8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '37b290cce2c3c06c90fbb548429e6a08') in 0.036296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Duck/Fall (36x36).png
-  artifactKey: Guid(b66d3ed271c328c4b9084c2e0bdb616b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Duck/Fall (36x36).png using Guid(b66d3ed271c328c4b9084c2e0bdb616b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b0390041be77c891779657cac06d8c03') in 0.039466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Bee/Idle (36x34).png
-  artifactKey: Guid(8721cbbfe3ba6a8418cd21a8de3a410c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Bee/Idle (36x34).png using Guid(8721cbbfe3ba6a8418cd21a8de3a410c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9b5003c28a06ddb0a08f8de6c5d973bc') in 0.046529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Chameleon/Run (84x38).png
-  artifactKey: Guid(5c876d5b9f3c75b409e35030dd07bc57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Chameleon/Run (84x38).png using Guid(5c876d5b9f3c75b409e35030dd07bc57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6b43f3de49dbf77d16f982dc36b3cfe6') in 0.046223 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Chicken/Idle (32x34).png
-  artifactKey: Guid(f729d6acae7cd754a864abda75a4bbd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Chicken/Idle (32x34).png using Guid(f729d6acae7cd754a864abda75a4bbd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04edf98ec74017d63b29c57c0a1c477a') in 0.063351 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/BlueBird/Hit (32x32).png
-  artifactKey: Guid(a84745caca919394ea0a3541417402d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/BlueBird/Hit (32x32).png using Guid(a84745caca919394ea0a3541417402d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '73c2ef9342c295d0af1ef5d50749e8b0') in 0.041615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Duck/Hit (36x36).png
-  artifactKey: Guid(b6fb0d541d6e4e54face92c6a2e56a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Duck/Hit (36x36).png using Guid(b6fb0d541d6e4e54face92c6a2e56a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c7f20ba90897e8b8e60ec762eab18898') in 0.053286 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Settings/Renderer2D.asset
-  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8a19b99c9071d4d610e111c3ab9f4a25') in 0.028904 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/glossy bubbles/img/6.png
-  artifactKey: Guid(db1bb1484620e8e4d8afff9f6d5c6514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/img/6.png using Guid(db1bb1484620e8e4d8afff9f6d5c6514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ea98a48235bbb4c3cb7f5ee3410c570f') in 0.037087 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Bunny/Jump.png
-  artifactKey: Guid(ecc9c07b5beb1164dbb54c0d9847c7e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Bunny/Jump.png using Guid(ecc9c07b5beb1164dbb54c0d9847c7e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '10db11e82c7ac6dbb40681bcee089e7a') in 0.036639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Plant/Bullet.png
-  artifactKey: Guid(d700391178f61c3488cd257e7e7a81bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Plant/Bullet.png using Guid(d700391178f61c3488cd257e7e7a81bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cf16d761f56e6f3c718b12449055cbeb') in 0.035915 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/FatBird/Idle (40x48).png
-  artifactKey: Guid(60beccb521110cf40be533c702156072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/FatBird/Idle (40x48).png using Guid(60beccb521110cf40be533c702156072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '385c51148f0a6fa4c3cfaff711e20c7e') in 0.050680 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Plant/Bullet Pieces (16x16).png
-  artifactKey: Guid(44bf90fb9fb70524c87497a99496921c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Plant/Bullet Pieces (16x16).png using Guid(44bf90fb9fb70524c87497a99496921c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4a306e5a573ace22c50679fe82a92af0') in 0.038997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Duck/Jump (36x36).png
-  artifactKey: Guid(38cb56d15dc28c34eaf4da30ab64c8fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Duck/Jump (36x36).png using Guid(38cb56d15dc28c34eaf4da30ab64c8fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ab633d1255538ab124cfcd94026259b3') in 0.033885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Falling Platforms/On (32x10).png
-  artifactKey: Guid(a8be9d80391091641bb9404b3f4dd067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Falling Platforms/On (32x10).png using Guid(a8be9d80391091641bb9404b3f4dd067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ed5b1fd1db439e766c3b738566f2878f') in 0.033875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Jump (32x32).png
-  artifactKey: Guid(2d728ff08787c6640bbe4984c7ff018b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Jump (32x32).png using Guid(2d728ff08787c6640bbe4984c7ff018b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a2ab1dcb15ee0dedb90eaaea625e0234') in 0.039190 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Background/Purple.png
-  artifactKey: Guid(248611cc7bb8d85448933cee393ce41e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Background/Purple.png using Guid(248611cc7bb8d85448933cee393ce41e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9c31ec3276498d30aafe47512c54c93e') in 0.039242 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Ghost/Hit (44x30).png
-  artifactKey: Guid(fe0d305c386c24f49b22110bd836c48d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Ghost/Hit (44x30).png using Guid(fe0d305c386c24f49b22110bd836c48d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cfc391fcbd90bc560f07338da6c9f4a7') in 0.045740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/glossy bubbles/img/9.png
-  artifactKey: Guid(d9f0c523cc024974fb5620d309b3bb54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/img/9.png using Guid(d9f0c523cc024974fb5620d309b3bb54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd0e2b07ca6d3198df1bfa902f6731bc8') in 0.027727 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Wall Jump (32x32).png
-  artifactKey: Guid(603abb83490921841976d0f1b2045f23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Wall Jump (32x32).png using Guid(603abb83490921841976d0f1b2045f23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '94880ab46de5499394ff2170b3062737') in 0.040462 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Ghost/Appear (44x30).png
-  artifactKey: Guid(a26831e3796d4f6498e8400f4a01326b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Ghost/Appear (44x30).png using Guid(a26831e3796d4f6498e8400f4a01326b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cf27821ce2496130c08ee2e744edfbd8') in 0.045397 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Run (32x32).png
-  artifactKey: Guid(97d5ce53f3ac76e4888319c6a53c7ff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Run (32x32).png using Guid(97d5ce53f3ac76e4888319c6a53c7ff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd1a7032be5a83fda678b779831f2a705') in 0.048552 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Strawberry.png
-  artifactKey: Guid(a2c110585eb710b408972fbc3b96136d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Strawberry.png using Guid(a2c110585eb710b408972fbc3b96136d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '01522bf31b34c8c1c51829f4be10d9cb') in 0.049884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Jump (32x32).png
-  artifactKey: Guid(edbf2f282f3feb940b6238d4d339ada4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Jump (32x32).png using Guid(edbf2f282f3feb940b6238d4d339ada4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6fa00e4cac41220f496948c94a2a3cf7') in 0.043798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Fall (32x32).png
-  artifactKey: Guid(1a6feec238b9a99499082bb755fa32df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Pink Man/Fall (32x32).png using Guid(1a6feec238b9a99499082bb755fa32df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9d730e426ff5d4cb61fd81877964d2d5') in 0.038832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Plant/Attack (44x42).png
-  artifactKey: Guid(f85ccb91ff4f71d44808845949b0798b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Plant/Attack (44x42).png using Guid(f85ccb91ff4f71d44808845949b0798b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2d32e92cba302b02b2d4dffa0dfae42d') in 0.045923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Idle.png
-  artifactKey: Guid(1508ab85aab80754fb0213cd79267961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Idle.png using Guid(1508ab85aab80754fb0213cd79267961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cd53ab75a6cb0ace4d7594dbbce1220e') in 0.036953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Walk (36x30).png
-  artifactKey: Guid(3315bdad18a105d49a220419bb2c813f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Walk (36x30).png using Guid(3315bdad18a105d49a220419bb2c813f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '62c59c2617cc17287483440d36f54e07') in 0.053351 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Arrow/Idle (18x18).png
-  artifactKey: Guid(f42176bbc0b84b54e83c161abc6eb071) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Arrow/Idle (18x18).png using Guid(f42176bbc0b84b54e83c161abc6eb071) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '37ce68bc357cfc0df3654025b64efdc7') in 0.047149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Bat/Ceiling In (46x30).png
-  artifactKey: Guid(9cfc0116f92113a459a7e02f469b0abf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Bat/Ceiling In (46x30).png using Guid(9cfc0116f92113a459a7e02f469b0abf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2c3c7b68f7f482a963afd0de29ff1773') in 0.041332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Saw/Chain.png
-  artifactKey: Guid(c67ce4f5bcebc8943a10698b6614f86f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Saw/Chain.png using Guid(c67ce4f5bcebc8943a10698b6614f86f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ecb3fee52703410ac549fe7ce9117ce9') in 0.031510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/glossy bubbles/material/13.mat
-  artifactKey: Guid(ea8c548f152f3484fad900981caf3177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/material/13.mat using Guid(ea8c548f152f3484fad900981caf3177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd56fd658c18d619b74bd431790d932c3') in 0.014908 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Left Hit (54x52).png
-  artifactKey: Guid(680c4a3e214ba5b4d984cd56b1d49668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Left Hit (54x52).png using Guid(680c4a3e214ba5b4d984cd56b1d49668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '005c04b6bd39d4d6f144ccdd70772b0f') in 0.034642 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Blink (42x42).png
-  artifactKey: Guid(e3e6b3d6c57dc7b488e7d1e8be902988) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Rock Head/Blink (42x42).png using Guid(e3e6b3d6c57dc7b488e7d1e8be902988) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ad62acdea66cf4c2d99114fb51bf09fa') in 0.031200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Duck/Jump Anticipation (36x36).png
-  artifactKey: Guid(424cf879be82f4745858acac29c12ee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Duck/Jump Anticipation (36x36).png using Guid(424cf879be82f4745858acac29c12ee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bca035e19d118fc6cca492f0c25e33e6') in 0.041789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Ghost/Gost Particles (16x16).png
-  artifactKey: Guid(14048ba4b41a50449a2a86a01088f5e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Ghost/Gost Particles (16x16).png using Guid(14048ba4b41a50449a2a86a01088f5e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '823f876721eb599411e64340a2245c77') in 0.034145 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Run (36x30).png
-  artifactKey: Guid(6991e54fe8bb5724bafb4aba16583d49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/AngryPig/Run (36x30).png using Guid(6991e54fe8bb5724bafb4aba16583d49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c6137d2a54f04b8d0ae4033c1bc769f1') in 0.051196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png
-  artifactKey: Guid(552146dbb8bac6f449493bca4b69540f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png using Guid(552146dbb8bac6f449493bca4b69540f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8aebd8a85f65452ff85ed0b5e0981baa') in 0.050089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/glossy bubbles/material/10.mat
-  artifactKey: Guid(0a647198e223ba84dbbd017485dc3f4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/material/10.mat using Guid(0a647198e223ba84dbbd017485dc3f4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e2b3d63aba54d5a69aede8beef5effae') in 0.015987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png
-  artifactKey: Guid(413986c4a668c374d8de72a47621b531) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png using Guid(413986c4a668c374d8de72a47621b531) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0ef6b2d6d0f94bc722de8c522041dfb9') in 0.040680 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Fire/Hit (16x32).png
-  artifactKey: Guid(573c22279c1eb734696548dfba41d021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Fire/Hit (16x32).png using Guid(573c22279c1eb734696548dfba41d021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '14c3c7c468873260f0ad2976f90461f0') in 0.034191 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png
-  artifactKey: Guid(241f742f0911c3a428eea6612ae23b77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png using Guid(241f742f0911c3a428eea6612ae23b77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bef33225d3e1aebda1b05f681309a8c8') in 0.048004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Bunny/Run (34x44).png
-  artifactKey: Guid(aec37b825939c4640ba5db40252ff5e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Bunny/Run (34x44).png using Guid(aec37b825939c4640ba5db40252ff5e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0b4bf9006e138a4af2f6ce753e31473a') in 0.052721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png
-  artifactKey: Guid(40de9a8703e2e5a47882b0b86451c741) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png using Guid(40de9a8703e2e5a47882b0b86451c741) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9174b46c69dd502ed3c712a2549c1d13') in 0.055433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png
-  artifactKey: Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png using Guid(5c8b2ada1a819a54e8c051165c738f18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd622c6c17afa1b6deb0c295025d881ac') in 0.034800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Top Hit (54x52).png
-  artifactKey: Guid(8123182af98fb8147a7d6e6bf458ba4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Top Hit (54x52).png using Guid(8123182af98fb8147a7d6e6bf458ba4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1f7cc2d5b0f0334915f9b8d2fd76e90c') in 0.038201 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Background/Yellow.png
-  artifactKey: Guid(4d8c75a4d7dd2a0489270e1058d82128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Background/Yellow.png using Guid(4d8c75a4d7dd2a0489270e1058d82128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8439cdde29ecabc44d0a7983be396615') in 0.038881 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Platforms/Brown On (32x8).png
-  artifactKey: Guid(e242b62e7e6caee439fa1d024a8fa5bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Platforms/Brown On (32x8).png using Guid(e242b62e7e6caee439fa1d024a8fa5bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6ed9f546ee62e436ea863bfc9be9d83d') in 0.038034 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scenes/Map1.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Map1.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c8eaa3603580eade679ac0da5d075e9e') in 0.038723 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Fan/Off.png
-  artifactKey: Guid(1f268b33cadc6104287b8111b824e1e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Fan/Off.png using Guid(1f268b33cadc6104287b8111b824e1e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd2ef5ee3a68f6ce8dceff18b037b3e2c') in 0.036617 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Background/Green.png
-  artifactKey: Guid(2538710101d0f1f4e8976b3495cd1f75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Background/Green.png using Guid(2538710101d0f1f4e8976b3495cd1f75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9c8e939e67f06ac7883b5d9a600073b9') in 0.038064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Background/Blue.png
-  artifactKey: Guid(8049ea91a9d5fca4dab4024c0915dbe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Background/Blue.png using Guid(8049ea91a9d5fca4dab4024c0915dbe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c9bf9d610cf945f6d621ea7329d0ee2d') in 0.033724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/glossy bubbles/material/8.mat
-  artifactKey: Guid(b3cc30769aad02e4e8f4a4e00fad3c44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/glossy bubbles/material/8.mat using Guid(b3cc30769aad02e4e8f4a4e00fad3c44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0b8447cc31505001446ae62be33746cf') in 0.027694 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Fire/On (16x32).png
-  artifactKey: Guid(3c112a44cc7dc7a468f4d132c2e7611c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Fire/On (16x32).png using Guid(3c112a44cc7dc7a468f4d132c2e7611c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b8ac96a87ca9fa7d8e7a3c66e19bf09b') in 0.037374 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png
-  artifactKey: Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png using Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cd0cd685d4e170f94f05834238d2325f') in 0.048042 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Collected.png
-  artifactKey: Guid(be1a5bd13766ec048bab6f4c578baa0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Collected.png using Guid(be1a5bd13766ec048bab6f4c578baa0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a76a226d1df4d9b79e3e1f15172f4c0a') in 0.038449 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Bottom Hit (54x52).png
-  artifactKey: Guid(d2223d6a7816d474b83187392732daf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Bottom Hit (54x52).png using Guid(d2223d6a7816d474b83187392732daf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dfd1675fece6ff4bc8e23104cd97ae62') in 0.037234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Chameleon/Hit (84x38).png
-  artifactKey: Guid(879f42eb54eb4f8489bc40c802959898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Chameleon/Hit (84x38).png using Guid(879f42eb54eb4f8489bc40c802959898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5961b3f89b9300b5beae4144549015ab') in 0.050730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 2.315443 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Radish/Hit (30x38).png
-  artifactKey: Guid(550949d173469e64b98691ac2b3d9388) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Radish/Hit (30x38).png using Guid(550949d173469e64b98691ac2b3d9388) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dcdbc3a8079ab8d1202dbd03b9e52ef4') in 0.054773 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Rino/Hit Wall (52x34).png
-  artifactKey: Guid(af986635e8356a644a7348f570cd3579) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Rino/Hit Wall (52x34).png using Guid(af986635e8356a644a7348f570cd3579) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fee324ee2456075953487f751192b6fd') in 0.043258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Trunk/Bullet.png
-  artifactKey: Guid(f817ba5aabd773e4f914480bdd62d0c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Trunk/Bullet.png using Guid(f817ba5aabd773e4f914480bdd62d0c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ad78356ed0d0df5e4aa8aa7713bb1626') in 0.048774 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Slime/Idle-Run (44x30).png
-  artifactKey: Guid(52d40d1d463a123498d838dd108b712a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Slime/Idle-Run (44x30).png using Guid(52d40d1d463a123498d838dd108b712a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '338942cc7a9641abb314910d52cf0b64') in 0.064110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Snail/Snail without shell.png
-  artifactKey: Guid(3aad790845ea9f14a9e5da10a5d3f856) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Snail/Snail without shell.png using Guid(3aad790845ea9f14a9e5da10a5d3f856) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '84cb7a3cb20070de877057887f4ee23d') in 0.034998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Slime/Particles (16x16).png
-  artifactKey: Guid(f2327ba2ad755d74682ebf3174417e5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Slime/Particles (16x16).png using Guid(f2327ba2ad755d74682ebf3174417e5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'df2eac55dbfc1c5c855e5dd48322ca1e') in 0.051427 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Skull/Red Particle.png
-  artifactKey: Guid(a9a2e792e09a33b428d70b813df6a1db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Skull/Red Particle.png using Guid(a9a2e792e09a33b428d70b813df6a1db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6435f5a97f3459794d81fe83ffe94d47') in 0.045683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Turtle/Spikes in (44x26).png
-  artifactKey: Guid(e6fc6dc4e21030043abfa53d019c42ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Turtle/Spikes in (44x26).png using Guid(e6fc6dc4e21030043abfa53d019c42ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '045e75e32f46e246b1f28953e067d0d7') in 0.061228 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Radish/Leafs (16x16).png
-  artifactKey: Guid(d66a24f1a595be64bbd51c1a109278b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Radish/Leafs (16x16).png using Guid(d66a24f1a595be64bbd51c1a109278b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6dc4bd357fc4e192304fc506394632dd') in 0.041756 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Boxes/Box3/Break (28x24).png
-  artifactKey: Guid(32cc0ed12a4ceea46a9c541b632a008f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Boxes/Box3/Break (28x24).png using Guid(32cc0ed12a4ceea46a9c541b632a008f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd3c08142064499c7687275baee4d25fb') in 0.040527 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Boxes/Box3/Idle.png
-  artifactKey: Guid(bcb85d05bbdb8a2468fe865da75a2795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Boxes/Box3/Idle.png using Guid(bcb85d05bbdb8a2468fe865da75a2795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3599ce02f9d4b6a0b2be566431e928dd') in 0.030738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Turtle/Idle 2 (44x26).png
-  artifactKey: Guid(a9c658600a401f347888cfd916603aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Turtle/Idle 2 (44x26).png using Guid(a9c658600a401f347888cfd916603aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '148d6203fd53b6095b0deb62f9109616') in 0.059759 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Snail/Shell Wall Hit (38x24).png
-  artifactKey: Guid(e7cc2fad4013ab448a4063d876b18a47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Snail/Shell Wall Hit (38x24).png using Guid(e7cc2fad4013ab448a4063d876b18a47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2fec50acd6b929372ab008df5b364d63') in 0.052217 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Snail/Walk (38x24).png
-  artifactKey: Guid(505391a19bb05954ea44a8929a7104ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Snail/Walk (38x24).png using Guid(505391a19bb05954ea44a8929a7104ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f902bf89441f6b6023829a485b9b1908') in 0.061676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Rocks/Rock2_Hit (32x28).png
-  artifactKey: Guid(92efab9bd840360409c373740e5e3482) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Rocks/Rock2_Hit (32x28).png using Guid(92efab9bd840360409c373740e5e3482) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '24052b32728b8aa22a8a8e38577e6f48') in 0.067023 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Boxes/Box1/Break (28x24).png
-  artifactKey: Guid(79022f0c1a1c5ce42bcba2ca880ef7fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Boxes/Box1/Break (28x24).png using Guid(79022f0c1a1c5ce42bcba2ca880ef7fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '84875bf05555e12cc28b38fe65607208') in 0.071844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Boxes/Box3/Hit (28x24).png
-  artifactKey: Guid(c515460e432a71b45bd7784aebe881d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Boxes/Box3/Hit (28x24).png using Guid(c515460e432a71b45bd7784aebe881d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a8f08e1aa23e7012dd718497bd8c6635') in 0.044105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Skull/Hit Wall 2 (52x54).png
-  artifactKey: Guid(37b1ba7ffc549af49af9b9327b6f897d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Skull/Hit Wall 2 (52x54).png using Guid(37b1ba7ffc549af49af9b9327b6f897d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ab889cfda5c4119c81b20b0f81d53537') in 0.073942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Trunk/Idle (64x32).png
-  artifactKey: Guid(bf4df7b2c9cda4c44b372e2b47a5cb8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Trunk/Idle (64x32).png using Guid(bf4df7b2c9cda4c44b372e2b47a5cb8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '78f94bb1f3d5af5312588316972d6b89') in 0.081674 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 135561.838618 seconds.
+  path: Assets/Scripts/BunnyShooterManager.cs
+  artifactKey: Guid(137091310bae1524cb19a928d779b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BunnyShooterManager.cs using Guid(137091310bae1524cb19a928d779b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c9514939120d57efb4c6e43af10a2a') in 0.008762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.479 seconds
+Refreshing native plugins compatible for Editor in 4.21 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.101 seconds
+Domain Reload Profiling: 1579ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1102ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (406ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5554 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (320.8 KB). Loaded Objects now: 6178.
+Memory consumption went from 198.2 MB to 197.9 MB.
+Total: 5.165800 ms (FindLiveObjects: 0.489200 ms CreateObjectMapping: 0.377300 ms MarkObjects: 4.132800 ms  DeleteObjects: 0.163700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Shooter.cs: 350db0d8f87a1308d6bb3ae5de196e43 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BunnyReset.cs: 69da8d85317e13b853c381324a663cb1 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17.697887 seconds.
+  path: Assets/Scripts/BunnyShooterManager.cs
+  artifactKey: Guid(137091310bae1524cb19a928d779b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BunnyShooterManager.cs using Guid(137091310bae1524cb19a928d779b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb572ad0998f89ee78e6f308f4e3749') in 0.002906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
