@@ -115,9 +115,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ShaderGraph.Utilities
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Shared.Editor", "Unity.VisualScripting.Shared.Editor.csproj", "{a1dfaf0f-0390-504d-0c9c-d34a605bf379}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Collections.DocCodeSamples", "Unity.Collections.DocCodeSamples.csproj", "{d4ee5c4d-2f13-86ff-580f-9162fca73f99}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0e0c3623-0e74-1a51-2c2e-faf38e16506a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Collections.DocCodeSamples", "Unity.Collections.DocCodeSamples.csproj", "{d4ee5c4d-2f13-86ff-580f-9162fca73f99}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Collections.BurstCompatibilityGen", "Unity.Collections.BurstCompatibilityGen.csproj", "{37b36427-cf9d-f742-31e7-e3c4b686cf04}"
 EndProject
@@ -356,10 +356,10 @@ Global
 		{dbbba7d3-8c8d-e7c5-6a62-07820802513a}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a1dfaf0f-0390-504d-0c9c-d34a605bf379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a1dfaf0f-0390-504d-0c9c-d34a605bf379}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{d4ee5c4d-2f13-86ff-580f-9162fca73f99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{d4ee5c4d-2f13-86ff-580f-9162fca73f99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0e0c3623-0e74-1a51-2c2e-faf38e16506a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0e0c3623-0e74-1a51-2c2e-faf38e16506a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d4ee5c4d-2f13-86ff-580f-9162fca73f99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d4ee5c4d-2f13-86ff-580f-9162fca73f99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37b36427-cf9d-f742-31e7-e3c4b686cf04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{37b36427-cf9d-f742-31e7-e3c4b686cf04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6b2a4066-7d9b-9fb2-430c-7e1e8c178bde}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
