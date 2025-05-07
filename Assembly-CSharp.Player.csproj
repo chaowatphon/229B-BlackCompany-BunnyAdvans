@@ -48,8 +48,10 @@
      <Compile Include="Assets\Scripts\moveobject.cs" />
      <Compile Include="Assets\Scripts\Collectible.cs" />
      <Compile Include="Assets\Scripts\BunnyShooterManager.cs" />
+     <Compile Include="Assets\Scripts\EndingSceneController.cs" />
      <Compile Include="Assets\Scripts\BunnyShooter.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\StartMenu.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
      </Reference>

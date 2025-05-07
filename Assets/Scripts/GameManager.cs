@@ -58,17 +58,21 @@ public class GameManager : MonoBehaviour
 
     void LoadNextScene()
     {
-        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        string[] sceneOrder = { "Map1", "Map2", "Map3", "EndingScene", "CreditScene" };
+        string currentScene = SceneManager.GetActiveScene().name;
 
-        // ถ้ายังมีฉากถัดไป ให้โหลด
-        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        int currentIndex = System.Array.IndexOf(sceneOrder, currentScene);
+
+        if (currentIndex >= 0 && currentIndex < sceneOrder.Length - 1)
         {
-            SceneManager.LoadScene(nextSceneIndex);
+            string nextScene = sceneOrder[currentIndex + 1];
+            SceneManager.LoadScene(nextScene);
         }
         else
         {
-            Debug.Log("จบเกมแล้ว ไม่มีฉากถัดไป");
-            // หรือจะกลับหน้าแรก / ขึ้นข้อความจบเกมก็ได้
+            // จบเกมหรือไม่พบฉากถัดไป → กลับไปหน้า Start
+            SceneManager.LoadScene("StartScene");
         }
     }
+    
 }
