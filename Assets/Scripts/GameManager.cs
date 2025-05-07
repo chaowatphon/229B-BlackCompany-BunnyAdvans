@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class GameManager : MonoBehaviour
 
     public Text scoreText;
     public GameObject winPanel;
+    
+    public TextMeshProUGUI bunnyCounterText;  // UI แสดงจำนวนกระต่าย
 
     private void Awake()
     {
@@ -44,6 +47,9 @@ public class GameManager : MonoBehaviour
     {
         if (scoreText != null)
             scoreText.text = "Score: " + score.ToString();
+
+        if (bunnyCounterText != null)
+            bunnyCounterText.text = "Friend: " + score + " / " + scoreToWin;
     }
 
     void WinGame()
