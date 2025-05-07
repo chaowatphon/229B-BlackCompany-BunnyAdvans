@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class EndingSceneController : MonoBehaviour
+public class CreditSceneController : MonoBehaviour
 {
     public float delayToCredit = 5f; // รอ 5 วิแล้วไป CreditScene
 
@@ -14,6 +13,6 @@ public class EndingSceneController : MonoBehaviour
 
     void GoToCreditScene()
     {
-        SceneManager.LoadScene("CreditScene");
+        SceneManager.LoadScene("StartScene");
     }
 }

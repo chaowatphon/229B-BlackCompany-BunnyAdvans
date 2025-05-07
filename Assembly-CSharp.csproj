@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Collectible.cs" />
      <Compile Include="Assets\Scripts\BunnyShooterManager.cs" />
      <Compile Include="Assets\Scripts\EndingSceneController.cs" />
+     <Compile Include="Assets\Scripts\CreditSceneController.cs" />
      <Compile Include="Assets\Scripts\BunnyShooter.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\StartMenu.cs" />
